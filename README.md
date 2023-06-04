@@ -13,3 +13,4 @@ Helpful resources:
 
 MySQL stuffs
 1. Tutorial: https://youtu.be/7S_tz1z_5bA
+2. Fetching data from a different sql server: https://stackoverflow.com/questions/1144051/selecting-data-from-two-different-servers-in-sql-server
