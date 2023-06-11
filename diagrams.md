@@ -1,6 +1,6 @@
 # A collection of useful diagrams that may aide in softare design
 
-1. **MVC Architecture diagram **
+1. **MVC Architecture diagram**
 
 MVC is an architeactural pattern/framework that separates application into 3 main logical componenets, serving to break down complicated development process into more manageable pieces.
 This also separates the backend implementation logic/business logic from the frontend visual display. 
