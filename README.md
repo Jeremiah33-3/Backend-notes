@@ -20,7 +20,13 @@ MySQL stuffs
 ## Authetication
 
 1. Calling API using Authetication code flow
-Source: https://auth0.com/docs/get-started/authentication-and-authorization-flow/call-your-api-using-the-authorization-code-flow
+Source:
+- https://auth0.com/docs/get-started/authentication-and-authorization-flow/call-your-api-using-the-authorization-code-flow
+- https://oauth.net/2/grant-types/authorization-code/
+- https://developer.okta.com/blog/2018/04/10/oauth-authorization-code-grant-type
+- https://www.oauth.com/oauth2-servers/access-tokens/authorization-code-request/
+
+Main points: 
 - for OAuth 2.0 
 - granting authorization from third-party provider 
 - need redirect URL
