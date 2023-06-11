@@ -25,6 +25,7 @@ Source:
 - https://oauth.net/2/grant-types/authorization-code/
 - https://developer.okta.com/blog/2018/04/10/oauth-authorization-code-grant-type
 - https://www.oauth.com/oauth2-servers/access-tokens/authorization-code-request/
+- OAuth guide/documentation: https://www.oauth.com/oauth2-servers/background/
 
 Main points: 
 - for OAuth 2.0 
