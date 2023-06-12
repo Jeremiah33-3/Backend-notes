@@ -51,9 +51,11 @@ Source/Reading:
 
 Source: https://supabase.com/docs/guides/auth/auth-helpers/nextjs
 
-4. Client-side vs server-side authetication flow
+4. Client-side vs server-side authetication flow | session vs token
 
 Source/Reading:
 - https://www.yeti.co/blog/client-vs-server-oauth-flows-with-rest-apis
+- https://dev.to/thecodearcher/what-really-is-the-difference-between-session-and-token-based-authentication-2o39
+- https://stackoverflow.com/questions/43452896/authentication-jwt-usage-vs-session
 
 -- seems like implicit vs PKCE 
