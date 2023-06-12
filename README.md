@@ -31,3 +31,29 @@ Main points:
 - for OAuth 2.0 
 - granting authorization from third-party provider 
 - need redirect URL
+
+2. What is PKCE when we talk about OAuth?
+
+PKCE: Proof key for code exchange.
+> OAuth decouples authentication from authorization, by relying on a third party to grant an access token. Doing this reduces your attack surface since your client secret is not required to access certain resources.
+
+One popular grant type = authorization code flow, with JWT as one standard to use this grant type. Authorization Code Flow protects client's secret by redirectly a request for a token through an Authorization Server. 
+
+[Implicit grant](https://datatracker.ietf.org/doc/html/rfc6749#section-1.3.2) is a simplified authorization code flow optimize for clients implemented in a browser using a scripting language such as JavaScript. Client is issued the access token directly instead of authorization code (no intermediate credentials).  
+On the other hand, [PKCE](https://oauth.net/2/pkce/) 'is an extension to the Authorization Code flow to prevent certain attacks and to be able to securely perform the OAuth exchange from public clients.”. PKCE is becoming the standard best practise to enhance security. PKCE replaces the client secret used in the standard Authorization Code flow with a one-time code challenge. This means the client app doesn’t have to store a client secret.
+
+Source/Reading:
+- https://blog.postman.com/pkce-oauth-how-to/
+- https://christianlydemann.com/implicit-flow-vs-code-flow-with-pkce/
+- Server-side rendering in Supabase: https://supabase.com/docs/guides/auth/server-side-rendering
+
+3. Supabase auth library 
+
+Source: https://supabase.com/docs/guides/auth/auth-helpers/nextjs
+
+4. Client-side vs server-side authetication flow
+
+Source/Reading:
+- https://www.yeti.co/blog/client-vs-server-oauth-flows-with-rest-apis
+
+-- seems like implicit vs PKCE 
