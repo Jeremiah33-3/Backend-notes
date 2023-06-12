@@ -11,6 +11,7 @@ Helpful resources:
 5. Supabase: https://supabase.com/docs
 6. geeksforgeeks web dev notes: https://www.geeksforgeeks.org/web-development/
 7. React's `useEffect`: https://react.dev/reference/react/useEffect
+8. Next.js: https://nextjs.org/docs/getting-started/project-structure
 
 MySQL stuffs
 1. Tutorial: https://youtu.be/7S_tz1z_5bA
