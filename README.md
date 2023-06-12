@@ -60,3 +60,15 @@ Source/Reading:
 - https://stackoverflow.com/questions/43452896/authentication-jwt-usage-vs-session
 
 -- seems like implicit vs PKCE 
+
+5. Cookies 🍪
+
+> Cookies are small blocks of data created by a web server while a user is browsing a website and placed on the user's computer or other device by the user's web browse
+
+It is normally placed on device used to access an website and more than one cookie may be placed during a session. 
+Two types:
+- authetication cookie
+- tracking cookie 
+
+Source/Reading:
+- https://en.wikipedia.org/wiki/HTTP_cookie
