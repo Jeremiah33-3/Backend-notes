@@ -13,6 +13,7 @@ Sources/Readings:
 - https://youtu.be/pCvZtjoRq1I
 - https://www.geeksforgeeks.org/mvc-framework-introduction/
 - https://www.freecodecamp.org/news/the-model-view-controller-pattern-mvc-architecture-and-frameworks-explained/
+- https://www.codecademy.com/article/mvc
 
 2. **Sequence Diagram (UML)**
 
