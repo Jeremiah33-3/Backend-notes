@@ -11,6 +11,10 @@ Two parts to Auth system
 - sign in with [enterprise SSO](https://supabase.com/docs/guides/auth/sso/auth-sso-saml) (terminologies at the bottom)
 - environment var: name/value pair that can affect the way running processes or programs behave on a computer
 
+**OnAuthStateChange**
+
+How does it work specifically: https://github.com/orgs/supabase/discussions/3673 
+
 
 ## hooks
 
